@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]) {
     return 0;
 }
 '''
-import math
+import math as math
 import numpy as np
 
 def fnEcuacion(valor):
@@ -57,8 +57,18 @@ i = 1
 it = round((np.log(x2 - x1) - np.log(Es)) / np.log(2))
 
 print(it)
-print("i   |     x1    |     x2    |      Er   |     xm    |" \
-           "   f(x1)   |   f(xm)   | f(x1) * f(xm) |\n")
+print("i\t|\tx1\t|\tx2\t|\tEr\t|\txm|\t" \
+           "f(x1)\t|\tf(xm)\t|\tf(x1) * f(xm)\t|\n")
 
 while (Er >= Es):
     xm = (x1 + x2) / 2
+    print( i ,"\t|\t", x1 ,"\t|\t", x2 ,"\t|\t", Er ,"\t|\t",xm  ,"\t|\t", fnEcuacion(x1), "\t|\t", fnEcuacion(xm), "\n")
+    if (fnEcuacion(x1) * fnEcuacion(xm) < 0):
+            x2 = xm
+    else :
+        x1 = xm
+    
+        Er = abs(x2 - x1)
+        i = i + 1;        
+
+print(xm, "\n")
