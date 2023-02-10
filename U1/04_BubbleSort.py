@@ -1,4 +1,5 @@
-a = [5,2,7,9,3]
+a = [10,1,6,3,9,4,8,5,7,2]
+
 for i in range(0, len(a)+1 -2):
     for j in range(0,len(a)+1 - i-2):
         x = a[j]
