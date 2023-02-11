@@ -8,5 +8,5 @@ while number != secret:
     print("Lo siento, intentalo devuelta")
     number = int(input("Ingresa un numero diferente: "))
 else:
-    print("Correcto, haz acertado el numero!!!")
+    print("Correcto, haz acertado el numero secreto!!!")
 
