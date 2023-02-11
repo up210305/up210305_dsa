@@ -1,3 +1,4 @@
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
  
 
@@ -77,7 +78,7 @@ details[open] summary::before {
             transform: rotate(180deg);
   }
 }
-
+</style>
 
 <div class="faq-container">
   <h2>Contenidos</h2>
