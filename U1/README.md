@@ -1,3 +1,4 @@
+<html>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
  
@@ -80,6 +81,7 @@ details[open] summary::before {
 }
 </style>
 
+
 <div class="faq-container">
   <h2>Contenidos</h2>
   <details open>
@@ -117,7 +119,6 @@ details[open] summary::before {
     <p>LLenar una matriz con numeros aleatorios de n tamaño y que no se repitan.</p>
     <img src="../images/06.png" align="center"/>
   </details>
-
-
-
 </div>
+
+</html>
