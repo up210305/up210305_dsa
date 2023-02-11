@@ -1,6 +1,6 @@
 <div class="faq-container">
   <h2>Contenidos</h2>
-  <details open>
+  <details>
     <summary>Ejerció 1 Bisección</summary>
     <p>El ejercicio era pasar el programa anteriormente realizado en c++ a python.</p>
     <img src="../images/01.png" align="center"/>
